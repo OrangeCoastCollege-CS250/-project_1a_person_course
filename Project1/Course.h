@@ -40,7 +40,7 @@ public:
 	string& getCourseName() const;
 
 	// getCourseGrade
-	char& getCourseGrade();
+	char& getCourseGrade() const;
 
 	// destructor
 	~Course();
