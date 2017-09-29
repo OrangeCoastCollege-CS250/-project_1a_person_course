@@ -25,7 +25,7 @@ public:
 	Course();
 
 	// setCourseInfo
-	void setCourseInfo(const string& name, const string& number, const int credits);
+	void setCourseInfo(const string& name, const string& number, cibst char grade, const int credits);
 
 	// printCourseInfo
 	void printCourseInfo(const bool printable) const;
@@ -40,7 +40,7 @@ public:
 	string& getCourseName() const;
 
 	// getCourseGrade
-	string& getCourseGrade();
+	char& getCourseGrade();
 
 	// destructor
 	~Course();
