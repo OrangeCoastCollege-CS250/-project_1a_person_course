@@ -34,13 +34,13 @@ public:
 	int getCourseCredits() const;
 
 	// getCourseNumber
-	string& getCourseNumber() const;
+	string getCourseNumber() const;
 
 	// getCourseName
-	string& getCourseName() const;
+	string getCourseName() const;
 
 	// getCourseGrade
-	char& getCourseGrade() const;
+	char getCourseGrade() const;
 
 	// destructor
 	~Course();
